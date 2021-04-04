@@ -1,0 +1,17 @@
+{
+    "name": "zou_mj/composer_package",
+    "require": {
+        "php": "^7.3"
+    },
+    "authors": [
+        {
+            "name": "yinle",
+            "email": "le.yin@seeed.cc"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "zmj\\" : "src/zmj"
+        }
+    }
+}
